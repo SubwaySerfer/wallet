@@ -1,0 +1,17 @@
+.header {
+  height: 200px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: greenyellow;
+  padding: 0 4rem;
+  &__nav{
+    &__list {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 3rem;
+    }
+  }
+}
