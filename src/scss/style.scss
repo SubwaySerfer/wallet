@@ -2,14 +2,17 @@
 
 @import './constants';
 // Pages
+@import './pages/homePage';
 
 // layouts
 @import './layouts/header';
+@import './layouts/footer';
 
 // UI
 
 
 // Components
+@import './components/index.scss';
 
 html {
   font-size: 10px;
@@ -22,7 +25,6 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
-
   font-weight: 400;
   font-size: 1.6rem;
   line-height: 150%;

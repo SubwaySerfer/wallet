@@ -1,14 +1,17 @@
 <template>
-  <main>
+  <main class="home-page">
     <the-header />
-    <section>promo</section>
-    <!-- <the-footer/> -->
+    <promo-section />
+    <the-footer />
   </main>
 </template>
 
 <script lang="ts">
+import PromoSection from '../components/layouts/home/PromoSection.vue';
 
 export default {
-  components: {}
-}
+  components: {
+    PromoSection,
+  },
+};
 </script>
