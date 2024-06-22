@@ -8,4 +8,20 @@
   background: greenyellow;
   padding: 0 4rem;
   align-items: center;
+  flex-wrap: wrap;
+  &__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+  }
+  &__text {
+    flex: 1 1 100%;
+  }
+}
+
+.Footer_icon__ISVxC {
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s ease;
 }
